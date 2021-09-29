@@ -13,12 +13,14 @@ public class Main {
 //			enterValue(value1);
 //		} while (tries);
 		
-		
+		//tries is automatisch "true" aan het begin.
 		while (tries) {
 			System.out.print("Enter only integers:");
 			enterValue(value1);
+			//Lijn 25 is het vervolg. Als de functie klaar is dan gaat ie truue of false returnen. als het true is dan stop de programma
+			//Als het false is, dan probeer het opnieuw
 		}
-
+		
 	}
 
 	public static boolean enterValue(int value) {
